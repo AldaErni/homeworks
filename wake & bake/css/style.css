@@ -355,6 +355,7 @@
 
 .socials {
   line-height: 0;
+}
 .socials__list {
   display: flex;
   gap: 15px;
