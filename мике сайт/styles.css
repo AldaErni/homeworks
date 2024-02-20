@@ -1,0 +1,30 @@
+.card {
+    width: 200px;
+    height: 150px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column; /* Добавляем направление колонок */
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    position: relative; /* Добавляем относительное позиционирование */
+}
+
+.switch-container {
+    position: absolute; /* Абсолютное позиционирование */
+    bottom: 10px; /* Отступ от нижнего края */
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.controls {
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
